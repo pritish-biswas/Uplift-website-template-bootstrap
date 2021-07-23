@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+ /* section */
+.colored-section{
+  background-color: #C400FF;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+p {
+  color: #8f8f8f;
+}
+
+/* headings */
+
+.big-heading{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.section-heading{
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 1;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+
+/* hero section */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  top: 30%;
+}
+
+
+/* features  section*/
+
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 2rem;
+}
+.feature-title{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #003638;
+}
+.feature-icon {
+  margin: 1rem;
+  color: #FB7AFC;
+}
+
+.feature-icon:hover {
+  color: #C400FF;
+}
+
+
+/* testimonials sections */
+
+#testimonials {
+  background-color: #FF67E7;
+}
+
+.testimonial-text{
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 1;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #FF67E7;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+.pricing-title{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.price-text{
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 1;
+}
+
+
+/* call to action section */
+
+#cta {
+  padding: 4% 13%;
+}
+
+
+/* footer section */
+
+#footer {
+  margin-top: 1%;
+}
+
+.footer-icon {
+  margin: 8px;
+  color: black;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
